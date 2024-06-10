@@ -17,7 +17,7 @@ bun install
 ```
 
 ## 🔩 Scripts
-En el archivo ```package.json` se definen los siguientes scripts:
+En el archivo ```package.json``` se definen los siguientes scripts:
 
 · ```start```: Ejecuta el archivo compilado index.js desde la carpeta dist.
 · ```build```: Instala las dependencias y compila el código TypeScript a JavaScript.
