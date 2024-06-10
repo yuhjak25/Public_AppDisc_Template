@@ -1,0 +1,21 @@
+{
+  "name": "app-disc-template",
+  "version": "1.0.0",
+  "description": "Ejemplo de los manejadores de una app de Discord.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "build": "npm install && tsc",
+    "dev": "ts-node-dev --respawn --transpile-only --poll ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "yuhjak25",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.1",
+    "ts-node-dev": "^2.0.0"
+  }
+}
