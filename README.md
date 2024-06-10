@@ -39,7 +39,7 @@ Asegúrate de tener un archivo `.env` en la raíz del proyecto con las siguiente
 
 ## 📡 Dependencias
 Las principales dependencias de este proyecto son: 
-· `discord.js`: ^14.15.3
+· `discord.js`: ^14.15.3\n
 · `dotenv`: ^16.4.5
 · `mongodb`: ^6.7.0
 · `mongoose`: ^8.4.1
