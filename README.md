@@ -34,8 +34,8 @@ Para ejecutar estos scripts, utiliza los siguientes comandos:
 ## ⚙️ Configuración
 Asegúrate de tener un archivo `.env` en la raíz del proyecto con las siguientes variables de entorno:
 
-`DISCORD_TOKEN=tu_token_de_discord
- MONGODB_URI=tu_uri_de_mongodb`
+`DISCORD_TOKEN=tu_token_de_discord`
+`MONGODB_URI=tu_uri_de_mongodb`
 
 ## 📡 Dependencias
 Las principales dependencias de este proyecto son: 
@@ -58,7 +58,6 @@ Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
 
 ## ©️ Licencia
 Este proyecto está bajo la Licencia ISC.
-`
-Este `README.md` proporciona una guía completa sobre cómo instalar, configurar y ejecutar el proyecto, así como detalles sobre la estructura del proyecto y cómo contribuir.
-` 
+
+· Este `README.md` proporciona una guía completa sobre cómo instalar, configurar y ejecutar el proyecto, así como detalles sobre la estructura del proyecto y cómo contribuir.
 
