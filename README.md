@@ -17,32 +17,35 @@ bun install
 ```
 
 ## 🔩 Scripts
-En el archivo `package.json` se definen los siguientes scripts:
+En el archivo ```package.json` se definen los siguientes scripts:
 
-· `start`: Ejecuta el archivo compilado index.js desde la carpeta dist.
-· `build`: Instala las dependencias y compila el código TypeScript a JavaScript.
-· `dev`: Ejecuta el servidor en modo desarrollo utilizando ts-node-dev.
+· ```start```: Ejecuta el archivo compilado index.js desde la carpeta dist.
+· ```build```: Instala las dependencias y compila el código TypeScript a JavaScript.
+· ```dev```: Ejecuta el servidor en modo desarrollo utilizando ts-node-dev.
 
 Para ejecutar estos scripts, utiliza los siguientes comandos:
 · Para iniciar la aplicación en producción:
-   `npm run start || bun run start`
+   ```npm run start || bun run start```
 · Para compilar el proyecto:
-   `npm run build || bun run build`
+   ```npm run build || bun run build```
 · Para iniciar la aplicación en modo desarrollo:
-   `npm run dev || bun run dev`
+   ```npm run dev || bun run dev```
 
 ## ⚙️ Configuración
 Asegúrate de tener un archivo `.env` en la raíz del proyecto con las siguientes variables de entorno:
 
-`DISCORD_TOKEN=tu_token_de_discord`
-`MONGODB_URI=tu_uri_de_mongodb`
+```
+DISCORD_TOKEN=tu_token_de_discord
+API=la_id_de_la_app
+MONGODB_URI=tu_uri_de_mongodb
+```
 
 ## 📡 Dependencias
 Las principales dependencias de este proyecto son: 
-· `discord.js`: ^14.15.3
-· `dotenv`: ^16.4.5
-· `mongodb`: ^6.7.0
-· `mongoose`: ^8.4.1
+· ```discord.js```: ^14.15.3
+· ```dotenv```: ^16.4.5
+· ```mongodb```: ^6.7.0
+· ```mongoose```: ^8.4.1
 
 Las dependencias de desarrollo incluyen:
 · `ts-node-dev`: ^2.0.0
